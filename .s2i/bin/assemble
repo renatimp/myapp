@@ -6,7 +6,7 @@ export PATH=$PATH:/opt/app-root/node_modules/.bin
 
 pushd /tmp/src || exit 1
 
-
+echo "CHEGOU AQUI <<<<<"
 
 echo "---> Building your Ruby application from source ..."
 if [ -f Gemfile ]; then
