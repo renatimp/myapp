@@ -8,6 +8,10 @@ pushd /tmp/src || exit 1
 
 echo "CHEGOU AQUI <<<<<"
 
+echo "$RAILS_MASTER_KEY"
+echo "SAIU  AQUI <<<<<"
+
+
 echo "---> Building your Ruby application from source ..."
 if [ -f Gemfile ]; then
   ADDTL_BUNDLE_ARGS="--retry 2"
