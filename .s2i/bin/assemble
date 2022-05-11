@@ -12,6 +12,8 @@ echo "$RAILS_MASTER_KEY"
 
 echo "$TESTE"
 
+echo "$RAILS_ENV"
+
 echo $RAILS_MASTER_KEY
 echo "SAIU  AQUI <<<<<"
 
