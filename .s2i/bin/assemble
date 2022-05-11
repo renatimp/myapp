@@ -10,6 +10,8 @@ echo "CHEGOU AQUI <<<<<"
 
 echo "$RAILS_MASTER_KEY"
 
+echo "$TESTE"
+
 echo $RAILS_MASTER_KEY
 echo "SAIU  AQUI <<<<<"
 
